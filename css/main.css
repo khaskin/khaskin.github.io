@@ -1,0 +1,225 @@
+
+
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-family: "RalewayRegular";
+    font-style: bold;
+}
+.site-navigation{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.9;
+    z-index: 9;
+    
+}
+ul.links{
+    width: 100%;
+    top: 15%;
+    left: 20%;
+    position: absolute;
+    
+}
+ul.links a{
+    text-decoration: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+ul.links a:hover{
+   
+    color: rgb(66, 66, 66);
+   
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.logo a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 800 !important;
+    font-size: 23px;
+    text-decoration: none;
+    line-height: 80px;
+    border-bottom: 1px solid #f1f1f1;
+    float: left;
+}
+.menu-top{
+    position: fixed;
+    right: 5%;
+    top: 30px;
+    padding: 20px;
+    background: #000000;
+    z-index: 10;
+    cursor: pointer;
+}
+.menu-top i{
+    color: white;
+    font-size: 18px;
+}
+.menu-top i:hover{
+    opacity: 0.5;
+}
+.clear{
+    clear: both;
+}
+.content{
+    width: 1100px;
+    margin: 80px auto;
+}
+.content .text-intro{
+    width: 500px;
+}
+.text-intro h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.text-intro p{
+    font-size: 15px;
+    color: #646464;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.parallax1{
+    opacity: 0.85;
+}
+.parallax1 img{
+    width: 90%;
+    
+}
+.portfolio-grid{
+    width:1100px;
+    position:relative;
+   
+    overflow:hidden;
+  }
+  li.grid-item{
+    width:360px;
+    position:relative;
+    float:left;
+    
+   
+  }
+  li.grid-item img{
+      max-width: 90%;
+      margin-bottom: 20px;
+  }
+  .item-hover{
+    width:360px;
+    position:absolute;
+    z-index: 2;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    background: white;
+    -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in; 
+  }
+  .item-hover:hover{
+ opacity: 1;
+  }
+  .social-pages{
+      height: 150px;
+      padding-top: 50px;
+      margin-top: 150px;
+  }
+  .social-pages a{
+      color: #000000;
+      font-size: 30px;
+      padding: 10px;
+  }
+  .social-pages a:hover{
+    color: #3b3838;
+    font-size: 30px;
+    padding: 10px;
+}
+.copyright{
+    height: 100px;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    
+}
+.copyright p{
+    padding: 15px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    line-height: 40px;
+}
+.copyright a{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.copyright a:hover{
+    
+    color: #534e4e;
+    
+    
+}
+/*
+**************************
+paralax
+**************************
+*/
+
+.home-sidebar{
+    top:0;
+    position:absolute;
+    width:33.3333%;
+    right:0;
+    height:100%;
+    background:#f4f4f4;
+    z-index:9;
+    overflow:hidden;
+    background-size:100%;
+  }
+  
+  .parallax{
+    position:absolute;
+  }
+  
+  .parallax-option{
+    position:absolute; width:100%; height:100%;
+  }
+  .head-button{
+      text-align: center;
+  }
+  .totop{
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      color: #000000;
+      font-size: 20px;
+      font-weight: 800;
+     padding: 5px;
+      border: 2px solid #000000;
+      border-radius: 5px;
+      width: 50px;
+  }
+  .totop:hover{
+      background-color: #d6d6d6;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in; 
+  }
